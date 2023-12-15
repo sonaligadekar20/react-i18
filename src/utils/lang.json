@@ -1,17 +1,20 @@
 {
   "en": {
-    "welcomeMessage": "welcome !",
-    "normalMessage": "We hope you enjoy learning React.",
-    "greetingMessage": "Have a great day!"
+    "headingMessage": "Biography of C. V. Raman",
+    "textMessage": "Sir Chandrasekhara Venkata Raman FRS ( 7 November 1888 – 21 November 1970) was an Indian physicist known for his work in the field of light scattering. Using a spectrograph that he developed, he and his student K. S. Krishnan discovered that when light traverses a transparent material, the deflected light changes its wavelength and frequency. This phenomenon, a hitherto unknown type of scattering of light, which they called 'modified scattering as subsequently termed the Raman effect or Raman scattering. Raman received the <yearCount> Nobel Prize in Physics for the discovery and was the first Asian to receive a Nobel Prize in any branch of science.",
+    "subheadingMessage": "Early life and education",
+    "textMessage1": "C. V. Raman was born in Tiruchirappalli in the Madras Presidency of British India (now Tiruchirapalli, Tamil Nadu, India) to Tamil parents, Chandrasekhara Ramanathan Iyer and Parvathi Ammal. He was the second of eight siblings. His father was a teacher at a local high school, and earned a modest income. He recalled: 'I was born with a copper spoon in my mouth. At my birth my father was earning the magnificent salary of ten rupees per month!' In 1892, his family moved to Visakhapatnam (then Vizagapatam or Vizag) in Andhra Pradesh"
   },
   "mr":{
-    "welcomeMessage": "स्वागत आहे !",
-    "normalMessage": "आशा आहे की तुम्हाला React शिकन्यात आनंद येइल.",
-    "greetingMessage":"आपला दिवस चांगला जावो"
+    "headingMessage": "स्वागत आहे !",
+    "textMessage": "आशा आहे की तुम्हाला React शिकन्यात आनंद येइल.",
+    "subheadingMessage": "Early life and education",
+    "textMessage1":"आपला दिवस चांगला जावो <yearCount>"
   },
   "hi":{
-    "welcomeMessage": "स्वागत हे !",
-    "normalMessage": "हमें आशा है कि आप React शिकेन का आनंद लेंगे |",
-    "greetingMessage": "आपका दिन अच्छा हो"
+    "headingMessage": "स्वागत हे !",
+    "textMessage": "हमें आशा है कि आप React शिकेन का आनंद लेंगे |",
+    "subheadingMessage": "Early life and education",
+    "textMessage1": "आपका दिन अच्छा हो   <yearCount> "
   }  
 }

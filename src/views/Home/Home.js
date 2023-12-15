@@ -1,21 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Home.css"
 import I18n from './../../utils/I18n'
 
 function Home() {
+    const yearsCount = 1930;
 
-    // const usersCount = 15;
+    const [lang, setLang] = useState("hi");
+
     return (
-        <div>
-          <h1>{I18n("welcomeMessage")}</h1>
+        <div className='message-box'>
+          <h1 className='text-center'>{I18n("headingMessage")}</h1>
 
-          <p>{I18n("normalMessage")}</p>
+          <p className='text-message'>{I18n("textMessage", "<yearCount>", yearsCount)}</p>
 
-          <h3>{I18n("greetingMessage")}</h3>
+          <p className='sub-heading'>{I18n("subheadingMessage")}</p>
 
-          {/* <p>
-            {usersCount} users are learning in this session.
-          </p> */}
+          <p className='text-message'>{I18n("textMessage1")}</p>
+
+          <h5>{I18n("endMessage") }</h5>
+
+          <select className='lang-box'
+          defaultValue={localStorage.getItem("lang")}onChange={(e)=>{
+             localStorage.setItem("lang", e.target.value);
+             window.location.reload();
+          }}>
+             <option value="mr">Marathi</option>
+             <option value="hi">Hindi</option>
+             <option value="en">English</option>
+          </select>
+          
+          <p>
+            {/* {I18n("usersStatMessage", "<studentCount>", usersCount)}  */}
+          </p>
         </div>
     )
 }
